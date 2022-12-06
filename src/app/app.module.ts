@@ -12,6 +12,10 @@ import { RechercheParCategorieComponent } from './recherche-par-categorie/recher
 import { RechercheParNomComponent } from './recherche-par-nom/recherche-par-nom.component';
 import { SearchFilterPipe } from './search-filter.pipe';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { ListeCategoriesComponent } from './liste-categories/liste-categories.component';
+import { UpdateCategorieComponent } from './update-categorie/update-categorie.component';
+import { LoginComponent } from './login/login.component';
+import { ForbiddenComponent } from './forbidden/forbidden.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     UpdateProduitComponent,
     RechercheParCategorieComponent,
     RechercheParNomComponent,
-    SearchFilterPipe
+    SearchFilterPipe,
+    ListeCategoriesComponent,
+    UpdateCategorieComponent,
+    LoginComponent,
+    ForbiddenComponent
   ],
   imports: [
     BrowserModule,
